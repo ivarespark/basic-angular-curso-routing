@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'basic-angular-curso-routing';
+
+  active = 'active';
 }

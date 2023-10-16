@@ -1,4 +1,13 @@
 <h1>Tema: Routing</h1>
 
+  
+<nav>
+  <ul>
+    <li><a routerLink="home" [routerLinkActive]="active">Home</a></li> <!-- se usa [] cuando se quiere pasar un valor -->
+    <li><a routerLink="about" routerLinkActive="active">About</a></li>
+    <li><a routerLink="contact" routerLinkActive="active">Contact</a></li>
+  </ul>
+</nav>
+
 <!-- Donde se crgaran todos los componentes -->
 <router-outlet></router-outlet>
